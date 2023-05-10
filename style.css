@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300;400&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #001d3d;
+  text-align: center;
+  padding: 25px;
+  color: #000814
+}
+
+h1, h2, h3 {
+  font-family: overpass;
+  color: #ffc300;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 10px;
+  border: 1px solid #EAEAEA;
+}
+
+.link {
+  text-decoration: none;
+  color:#003566;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s ease;
+  margin-left: 8px;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 15px 35px;
+  color: white;
+  border-radius: 10px;
+  background-color: #001d3d;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffc300;
+}
+
+.brands{
+  letter-spacing: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon_background {
+  background-color: #ffc40000;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 20px;
+  transition: 0.3s;
+}
+
+.icon_background:hover {
+  background-color: #ffc300;
+
+
+}
